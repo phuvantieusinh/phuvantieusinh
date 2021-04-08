@@ -1,0 +1,70 @@
+.right-sidebar-detail{
+    background-color: #f1f2f3;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.right-sidebar-detail a{
+    text-decoration: none;
+    color: #333;
+    width: 100%;
+}
+
+.right-sidebar-detail img{
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.right-sidebar-detail{
+    text-align: center;
+}
+/* chapter */
+.chapter{
+    width: 100%;
+    padding: 20px;
+}
+
+.chapter .navchap{
+    width: 100%;
+    display: block;
+    float: left;
+    margin: 0;
+    padding: 20px 0px;
+}
+
+.chapter .previous{
+    background-color: rgb(46, 139, 87);
+    float: left;
+    margin-left: 5%;
+}
+
+.chapter .next{
+    background-color: rgb(255, 99, 71);
+    float: right;
+    margin-right: 5%;
+}
+
+.chapter .previous, .next{
+    padding: 2px;
+    border-radius: 2px;
+    color: white;
+    font-size: small;
+    cursor: pointer;
+}
+/*------------*/
+.chapter .chapter-content{
+    width: 100%;
+    padding-top: 20px;
+    margin: 20px 0px;
+    font-size: larger;
+}
+
+/*coment*/
+.chapter-comment-box{
+    padding: 2px;
+    border-radius: 5px;
+    max-height: 100px;
+    overflow: auto;
+}

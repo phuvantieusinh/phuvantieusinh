@@ -1,0 +1,78 @@
+.list-story-category{
+    background-color: #f1f2f3;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.story-category{
+    margin-top: 20px;
+    border-top: 1px dashed #ccc;
+    padding: 10px;
+}
+
+.story-name {
+    color: #333;
+    font-weight: bold;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.story-name a{
+    color: #333;
+}
+
+.story-name a:hover{
+    color: #8989f1;
+}
+
+.story-cat{
+    color: #8989f1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.category-sidebar{
+    background-color: #FAFAFA;
+    padding: 10px 0px 10px 10px;
+    height: max-content;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.category-sidebar-name a{
+    text-decoration: none;
+    color: #333;
+    width: 100%;
+}
+
+.story-name:hover, .category-sidebar-name a:hover{
+    text-decoration: underline;
+    color: #8989f1;
+}
+/*pagination*/
+.pagination{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.pagination a {
+    color: #333;
+    float: left;
+    padding: 2px 10px;
+    text-decoration: none;
+    transition: background-color .3s;
+  }
+
+  .pagination a.active {
+    background-color: rgb(73, 106, 139);
+    color: white;
+  }
+
+  .pagination a:hover:not(.active) {
+    background-color: #ddd;
+  }
